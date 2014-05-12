@@ -2,10 +2,15 @@
 	max-width:1024px;
 }
 
+#carousel-gallery1 {
+	position:relative;	
+}
 
 #top-menu {
 	position:absolute;
 	z-index: 2000;
+	top:0px;
+	right:0px;
 }
 
 /*
