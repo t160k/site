@@ -1,3 +1,11 @@
+body {
+	background-color:#112;
+}
+
+.site-wrapper {
+	background-color:#fff;
+}
+
 .site-wrapper {
 	max-width:1024px;
 }
