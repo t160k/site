@@ -6,6 +6,11 @@
 	position:relative;	
 }
 
+/*
+ * Header
+ */
+
+
 #top-menu {
 	position:absolute;
 	z-index: 2000;
@@ -13,13 +18,14 @@
 	right:20px;
 }
 
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+#logo {
+	position:absolute;
+	z-index: 2000;
+	top:0px;
+	left:20px;
 }
+
+
 
 .masthead-nav > li {
   display: inline-block;
@@ -40,12 +46,6 @@
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
